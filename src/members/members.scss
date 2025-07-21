@@ -1,0 +1,72 @@
+// Transparencies
+.clickable-1JJAn8:hover .layout-2DM8Md,
+.members-1998pB,
+.members-1998pB > div {
+    background: transparent;
+}
+// Member hover/select animations
+.container-2Pjhx- {
+    transition: color 0.2s;
+    max-width: none;
+    border-radius: 0;
+    height: 44px;
+    margin: 5px 0 5px 0;
+    position: relative;
+
+    // Animation
+    .layout-2DM8Md {
+        background-color: transparent !important;
+        border-radius: 0;
+
+        &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 2px;
+            bottom: 2px;
+            transition: transform 0.4s;
+            animation-name: pulsingBackground;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+            transform: scaleX(0);
+            transform-origin: left;
+            width: 100%;
+        }
+    }
+    // Selected channel
+    &.selected-aXhQR6,
+    &:hover {
+        color: $high !important;
+        box-shadow: 0 1px $low, 0 -1px $low;
+
+        .name-uJV0GL span,
+        .activity-2Gy-9S,
+        .muted-3mU76i {
+            color: $high !important;
+        }
+        .layout-2DM8Md:before {
+            transform: scaleX(1);
+        }
+        .avatar-3uk_u9,
+        .linkButtonIcon-Mlm5d6,
+        .content-3QAtGj {
+            z-index: 1;
+        }
+    }
+}
+// Avatar
+// TODO: Get it in a working squared out state? Maybe the status can border around the entire profile picture?
+// .status-1eOIMS,
+// .svg-2V3M55 foreignObject {
+//     border: 1px solid $low;
+//     mask: none;
+// }
+// .pointerEvents-2zdfdO {
+//     position: absolute;
+//     mask: none;
+// }
+// Bot tag
+.botTagRegular-2HEhHi {
+    background-color: $alert;
+    color: $high;
+}

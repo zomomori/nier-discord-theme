@@ -1,0 +1,102 @@
+// Right-clicking things menu
+.theme-dark .quickSelectPopout-X1hvgV {
+    @include boxify($low, $mid, 3px);
+
+    .quickSelectPopoutOption-opKBx9 {
+        @include buttonify($low, $high, $high, $low);
+
+        .regionSelectName-c5qL8O {
+            color: $high;
+        }
+        &:hover .regionSelectName-c5qL8O {
+            color: $low;
+        }
+        .check-2by_h9 {
+            @include remask(
+                'https://discord.com/assets/6acb20d5e709b34b6a7f36ec13648666.svg',
+                $alert
+            );
+            mask-repeat: no-repeat;
+        }
+    }
+}
+// Context hover
+.theme-dark .tooltipGrey-1hnvTt {
+    color: $low;
+    @include boxify($high, $mid, 3px);
+    .tooltipPointer-3ZfirK {
+        border: none;
+    }
+}
+.menu-3sdvDG,
+.theme-dark .tooltip-2QfLtc,
+.theme-dark .listItemTooltip-CDcY8J {
+    .tooltipPointer-3ZfirK {
+        border: none;
+    }
+    @include boxify($low, $mid, 3px);
+    .scroller-3BxosC {
+        padding: 0;
+    }
+    .colorDefault-2K3EoJ {
+        @include buttonify($low, $high, $high, $low);
+        color: $high;
+    }
+    .guildNameText-74xXQn {
+        color: $high;
+    }
+}
+.item-1tOPte {
+    border-radius: 0;
+    margin: 0;
+}
+// Red text in context menu
+.colorDanger-2qLCe1 {
+    .checkbox-3s5GYZ,
+    .radioSelection-1HmrQS {
+        color: $alert !important;
+    }
+}
+.clickCTA-2B6Kbs {
+    color: $mid;
+}
+.guildNameText-3Zwx4p,
+.theme-dark .tooltip-2QfLtc,
+.theme-dark .listItemTooltip-CDcY8J {
+    color: $high;
+}
+.separator-2I32lJ,
+.theme-dark .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
+    border: none;
+}
+
+.theme-dark {
+    // Add role
+    .autocompleteShadow-iiGWFU {
+        border: 1px solid $low;
+        @include boxify($high, $mid, 3px);
+    }
+    .autocompleteArrow-Zxoy9H,
+    .header-2bNvm4 {
+        background-color: transparent;
+        box-shadow: none;
+    }
+    .addGamePopout-2RY8Ju .cancelButton-10XRsm,
+    .empty-3hoe1g .noResultsHeader-pqW4H-,
+    .empty-3hoe1g p,
+    .container-VSDcQc .input-1ppKdn {
+        color: $low;
+
+        &::placeholder {
+            color: $mid;
+        }
+    }
+}
+.row-rrHHJU.selected-1pIgLL .rowInner-1vvRiF {
+    background-color: $low;
+    border-radius: 0;
+
+    span {
+        color: $high !important;
+    }
+}

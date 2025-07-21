@@ -1,0 +1,147 @@
+// Transparencies
+.theme-dark .form-2fGMdU:before,
+.chat-3bRxxu {
+    background: transparent;
+}
+.mentioned-xhSam7:before {
+    width: 0;
+}
+.divider-JfaTT5 {
+    border-color: $alert;
+}
+// Scrollbar
+.auto-Ge5KZx::-webkit-scrollbar,
+.auto-Ge5KZx::-webkit-scrollbar-thumb,
+.auto-Ge5KZx::-webkit-scrollbar-track {
+    border-radius: 0;
+    width: 6px;
+}
+// Username label
+.cozyMessage-3V1Y8y .header-23xsNx {
+    border-radius: 0;
+    display: inline-block !important;
+    padding: 4px 5px 4px 6px;
+    background: var(--color-high);
+    margin-left: 13px;
+    box-shadow: 2px 2px 0 $mid, -3px 0 0 $low, -9px 0 0 $high, -21px 0 0 $low, -18px 2px 0 $mid;
+}
+// Profile Picture
+.full-motion .avatar-1BDn8e.clickable-1bVtEA {
+    @include boxify($high, $mid, 3px);
+
+    &:hover {
+        filter: none;
+        @include boxify($high, $alert, 3px);
+    }
+}
+// Username color
+.username-1A8OIy.clickable-1bVtEA {
+    color: $low !important;
+}
+// Date stamp
+.isUnread-3Ef-o9 .content-1o0f9g,
+.unreadPill-2HyYtt,
+.content-1o0f9g {
+    border-radius: 0;
+    background-color: $alert;
+    color: $high;
+}
+.unreadPillCapStroke-7rkHbg {
+    color: $alert;
+    fill: $alert;
+}
+// Quotes
+.blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
+    border-radius: 0;
+    background-color: $low;
+}
+.emptyChannelIcon-cc932w {
+    background-image: url('https://svgur.com/i/RGT.svg');
+    @include remask('https://svgur.com/i/RGT.svg', $mid);
+    margin: auto;
+    width: 403px !important;
+    height: 353px !important;
+}
+// Mentions
+.theme-dark {
+    .mentioned-xhSam7 {
+        .mention.interactive:hover {
+            color: $low;
+        }
+    }
+    .wrapper-3WhCwL {
+        background: $alert-trans;
+        color: $high;
+
+        &:hover {
+            color: $alert;
+            background: $high;
+        }
+    }
+}
+// Replies
+.mouse-mode.full-motion .replying-1x3H0T {
+    &,
+    &:hover {
+        background-color: $alert-trans;
+    }
+    &:before {
+        background-color: $alert;
+    }
+}
+.backgroundFlash-24qWLN {
+    transition: background-color 0.1s;
+    background-color: $alert-trans !important;
+}
+[style='background-color: rgba(114, 137, 218, 0);'] {
+    background-color: transparent !important;
+    transition: background-color 0.5s;
+}
+.colorBrand-2tjs5J {
+    color: $alert;
+}
+.repliedMessage-VokQwo:before {
+    border-left: var(--spine-width) solid $low;
+    border-bottom: 0 solid $low;
+    border-right: 0 solid $low;
+    border-top: var(--spine-width) solid $low;
+    border-radius: 0;
+}
+.replyBadge-r1su3o {
+    border-radius: 0;
+    border: 1px solid $low;
+}
+// You're viewing older messages /// X+ new messages since
+.newMessagesBar-265mhP,
+.jumpToPresentBar-G1R9s6 {
+    box-shadow: none;
+    background-color: $alert;
+    border-radius: 0;
+    button {
+        color: $high;
+    }
+}
+// Edit Message
+.scrollableContainer-2NUZem {
+    @include boxify($high, $mid, 3px);
+}
+.theme-dark .operations-36ENbA {
+    color: $low;
+    & > a {
+        color: $alert;
+    }
+}
+.codeBlockSyntax-2i-tMA,
+.syntaxAfter-hcA4AH,
+.syntaxBefore-1YQ9lW {
+    color: $alert;
+}
+// Timestamps
+.compact-T3H92H .headerText-3Uvj1Y {
+    border-right: 2px dashed $alert;
+}
+.compact-T3H92H .timestamp-3ZCmNB,
+.cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt {
+    margin-right: 0;
+    width: auto;
+}

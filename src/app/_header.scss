@@ -1,0 +1,61 @@
+// Transparencies
+.divider-3FBTu8,
+.theme-dark .children-19S4PO:after,
+.container-1r6BKw.themed-ANHk51 {
+    background: transparent;
+}
+.platform-win .sidebar-2K8pFh {
+    border-radius: 0;
+}
+.header-2o-2hj,
+.content-yTz4x3:before,
+.searchBar-6Kv8R2 {
+    box-shadow: none;
+}
+// Server name
+.clickable-25tGDB .header-2V-4Sw:hover,
+.selected-31Nl7x .header-2V-4Sw {
+    background-color: $low;
+    color: $high;
+}
+// Top header
+.name-1jkAdW,
+.title-29uC1r {
+    @include titlify(3px, 4px);
+    margin: 0;
+}
+.colorStreamerMode-2SJAUN, // Streamer mode Notif
+.akaBadge-1M-1Gw // AKA badge
+{
+    box-shadow: none;
+    background: $alert;
+    color: $high;
+}
+.notice-3bPHh- {
+    border-radius: 0;
+}
+// Channel icon
+.title-3qD0b- .children-19S4PO {
+    .iconWrapper-2OrFZ1 {
+        margin: 0 5px;
+        margin-bottom: 4px;
+    }
+    .icon-22AiRD {
+        margin: 6px 0px;
+        width: 16px;
+        height: 16px;
+        color: $high;
+        background: $low;
+    }
+    path:first-child {
+        background-color: $low;
+        fill: $low;
+    }
+}
+// Home
+.topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover,
+.topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+    border-radius: 0;
+    background-color: $low;
+    color: $high;
+}

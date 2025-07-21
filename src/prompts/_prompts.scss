@@ -1,0 +1,208 @@
+// Backdrop
+.backdrop-1wrmKB,
+.backdropWithLayer-3_uhz4 {
+    opacity: 0.4 !important;
+}
+// Transparencies
+.theme-dark .separator-2-RRj_,
+.theme-dark .footer-3mqk7D,
+.theme-dark .footer-2gL1pp {
+    background-color: transparent;
+    box-shadow: none;
+}
+// Set a custom status
+.theme-dark .root-1gCeng {
+    @include boxify($high, $mid, 3px);
+}
+.art-347BZj {
+    background-image: none;
+}
+.header-3C6qT5 {
+    padding-top: 0;
+}
+// Create a server
+.h5-18_1nd,
+.footer-2gL1pp,
+.uploadIcon-2IFzZU,
+.colorMuted-HdFt4q,
+.colorHeaderPrimary-26Jzh-,
+.colorHeaderSecondary-3Sp3Ft {
+    color: $low;
+}
+.anchor-3Z-8Bb {
+    color: $alert;
+}
+// You've been invited to join a server
+.container-2Yth53 {
+    .title-2_aCTw {
+        color: $low;
+    }
+}
+.iconActiveLarger-1L4Joi {
+    border-radius: 0;
+}
+// Upload Image
+.theme-dark .uploadModal-2ifh8j {
+    @include boxify($high, $mid, 6px);
+    .scrollableContainer-2NUZem {
+        box-shadow: none;
+        border: 3px solid $low;
+    }
+}
+// Drag and drop upload
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc {
+    .inner-3nWsbo .instructions-2Du9gG,
+    .inner-3nWsbo {
+        border: none;
+        color: $low;
+    }
+    .bgScale-1otPtc {
+        @include boxify($high, $mid, 4px);
+    }
+}
+.theme-dark .checkbox-1ix_J3 {
+    border: 2px solid $low;
+    border-radius: 0;
+
+    &.checked-3_4uQ9 {
+        border: 2px solid $low !important;
+        background-color: $high;
+
+        path {
+            fill: $low !important;
+        }
+    }
+}
+// Login screen
+.theme-dark.authBox-hW6HRx {
+    @include boxify($high, $mid, 6px);
+
+    &,
+    .colorHeaderPrimary-26Jzh-,
+    .colorHeaderSecondary-3Sp3Ft,
+    .h5-18_1nd {
+        color: $low;
+    }
+    .lookLink-9FtZy-.colorBrand-3pXr91 {
+        color: $alert;
+    }
+    .qrCodeContainer-3sXarj,
+    .qrCodeOverlay-qgtlTP {
+        border: 1px solid $low;
+    }
+}
+// CTRL K
+.quickswitcher-3JagVE {
+    @include boxify($high, $mid, 5px);
+    .input-2VB9rf {
+        color: $high;
+        background: $low;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .icon-30q1Or {
+        height: 13px;
+        width: 13px;
+        background-color: $low;
+    }
+    .resultFocused-3aIoYe {
+        background: $low;
+        border-radius: 0;
+
+        .note-S--UP5,
+        .misc-1CT3G7,
+        .contentUnread-3gTHvA,
+        .contentDefault-16dKSY {
+            color: $high;
+        }
+        .icon-30q1Or {
+            background-color: $high;
+            path {
+                fill: $high;
+            }
+        }
+    }
+}
+// Invite Friends to Server
+.theme-dark {
+    .lookLink-9FtZy-.colorGrey-2DXtkV,
+    .footerText-2a7NxZ {
+        color: $low;
+    }
+    .inviteRow-2L02ae {
+        border-radius: 0;
+        .inviteRowName-1tVaxu {
+            color: $low;
+        }
+
+        &:hover {
+            background: $low;
+            .lookLink-9FtZy-.colorGrey-2DXtkV,
+            .inviteRowName-1tVaxu {
+                color: $high;
+            }
+        }
+    }
+}
+// Addon Errors
+.bd-modal-wrapper {
+    .bd-modal-inner {
+        @include boxify($high, $mid, 5px);
+        border: none;
+    }
+    .header {
+        color: $high;
+        background-color: $low;
+    }
+    .footer-2gL1pp,
+    .bd-modal-body {
+        color: $low;
+        background-color: transparent;
+    }
+    .tab-bar-container {
+        background-color: transparent;
+        box-shadow: none;
+        .tab-bar-item {
+            color: $low;
+
+            &.selected {
+                border-color: $low;
+            }
+        }
+    }
+    .error,
+    .table-header {
+        color: $low;
+        border-color: $low;
+    }
+    .error-link {
+        color: $alert;
+    }
+}
+// Notification settings
+.theme-dark .modal-yWgWj- {
+    @include boxify($high, $mid, 4px);
+}
+// Reactions
+.theme-dark {
+    .reactors-Blmlhw,
+    .scroller-1-nKid {
+        background: transparent;
+    }
+    .reactorDefault-1IUqMZ {
+        box-shadow: none;
+    }
+    .remove-3V-yj8,
+    .discriminator-byOsvi {
+        color: $low;
+    }
+    .reactionSelected-1pqISm,
+    .reactionDefault-GBA58K:hover {
+        background: $low;
+        border-radius: 0;
+
+        .colorStandard-2KCXvj {
+            color: $high;
+        }
+    }
+}

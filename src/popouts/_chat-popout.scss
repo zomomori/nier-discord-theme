@@ -1,0 +1,136 @@
+// Transparencies
+.wrapper-2Gsate {
+    background: transparent;
+}
+.header-ykumBX,
+.header-8ilj5e {
+    box-shadow: none;
+}
+.popoutContainer-1MXdqN // Clicking an emote
+{
+    @include boxify($high, $mid, 3px);
+}
+.full-motion .wrapper-2aW0bm:hover,
+.wrapper-2aW0bm // Options when hovering over message
+{
+    @include boxify($low, $mid, 3px);
+
+    .button-1ZiXG9 {
+        @include buttonify($low, $high, $high, $low);
+    }
+}
+// Pinned Messages
+.messagesPopoutWrap-1MQ1bW {
+    @include boxify($high, $mid, 3px);
+}
+.username-1A8OIy {
+    color: $low !important;
+}
+// Selected tab in header
+.theme-dark .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa {
+    background-color: $alert;
+    color: $high;
+}
+// Pick emoji
+.contentWrapper-SvZHNd {
+    border: 1px solid $low;
+    @include boxify($high, $mid, 4px);
+}
+.emojiItem-14v6tW.emojiItemSelected-1aLkfV {
+    background: $low;
+    border-radius: 0;
+}
+.theme-dark .backButton-JyKGC1 {
+    color: $low;
+
+    &:hover {
+        color: $mid;
+    }
+}
+.navButtonActive-1MkytQ {
+    background-color: $low;
+    color: $high;
+    border-radius: 0;
+}
+// Pick Sticker
+.stickerInspected-2EM4w- .inspectedIndicator-59EII8 {
+    background-color: $low;
+}
+// Autocomplete in chatbox
+.theme-dark {
+    .contentTitle-2tG_sM strong,
+    .content-Qb0rXO {
+        color: $low;
+    }
+    .divider-23swzi {
+        background-color: $low;
+    }
+    .autocomplete-1vrmpx {
+        @include boxify($high, $mid, 4px);
+
+        .descriptionDiscriminator-3vUOCc {
+            color: $mid;
+        }
+        .description-11DmNu,
+        .descriptionUsername-J_75O8,
+        .contentTitle-2tG_sM {
+            color: $low;
+        }
+    }
+    .selected-1Tbx07 {
+        background-color: $low;
+        border-radius: 0;
+
+        .colorInteractiveNormal-PB7JN3,
+        .colorInteractiveActive-3Ip9Eu,
+        .colorStandard-2KCXvj,
+        .content-Qb0rXO,
+        .description-11DmNu,
+        .descriptionUsername-J_75O8,
+        .contentTitle-2tG_sM {
+            color: $high;
+        }
+    }
+}
+.autocompleteRow-2OthDa {
+    padding: 0;
+}
+// Delete message
+.theme-dark .focusLock-Ns3yie {
+    // Message Preview
+    .message-2qRu38 {
+        border-radius: 0;
+        border: 1px solid $low;
+        background-color: $high;
+        box-shadow: none;
+    }
+    // Pro tip
+    .pro-1T8RK7 {
+        color: $alert !important;
+    }
+}
+// Upload a File / Create Thread popout
+.colorDefault-2K3EoJ {
+    .subtext-13Lvrj {
+        color: $mid;
+    }
+    &:hover .subtext-13Lvrj {
+        color: $low;
+    }
+}
+
+// Ping everyone warning
+.theme-dark .contentWarningPopout-n5JsIs {
+    @include boxify($high, $mid, 3px);
+
+    .footer-3N9rgh {
+        background-color: transparent;
+    }
+
+    .buttonHint-OwCvKC,
+    .buttonHint-OwCvKC strong,
+    .header-2NYWtG,
+    .body-3PNusm {
+        color: $low;
+    }
+}
